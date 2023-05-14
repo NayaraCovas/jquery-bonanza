@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+}
+body {
+  background-color: #ccc;
+}
+
+#myevents {
+  background-color: aliceblue;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchbtn {
+  display: inline;
+  cursor: pointer;
+}
+
+.input {
+  width: 500px;
+  height: 20px;
+  box-shadow: 0 0 15px 1px #b6bbc0;
+  border-radius: 5px;
+  padding-left: 5px;
+  font-size: 18px;
+}
+
+.wrapper {
+  display: flex;
+  align-self: center;
+  padding-bottom: 25px;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 16px;
+}
+
+hr {
+  border: 1.5px solid black;
+}
+
+.searchbtn .fas {
+  color: #42be11;
+  font-size: 22px;
+}
+
+#myevents {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.sep-events {
+  border: 1.5px solid black;
+  width: 80%;
+}
+
+#btn-one {
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  margin-left: 110px;
+}
+#btn-two {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 110px;
+}
+
+#btn-three {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 110px;
+}
+
+p {
+  margin-bottom: 35px;
+}
+
+.para3 {
+  color: green;
+}

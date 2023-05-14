@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery Bonanza</title>
+    <!-- css sheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    />
+    <!--jquery link-->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <h1>jQuery Bonanza</h1>
+
+        <div class="wrapper">
+          <div class="searchbox">
+            <input
+              type="text"
+              class="input"
+              placeholder="http://tsociety.io/bootcamp"
+            />
+
+            <div class="searchbtn">
+              <i class="fas fa-search"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <hr />
+      <div id="myevents">
+        <div id="fadeoutjq">
+          <input type="button" value="Fade Out" id="btn-one" />
+          <input type="button" value="Fade In" id="btn-fade-in" />
+          <p class="para1" id="fade-one">
+            When the button is clicked this text fades out.
+          </p>
+        </div>
+        <hr class="sep-events" />
+
+        <div id="appendjq">
+          <input type="button" value="Append" id="btn-two" />
+          <p class="para2">When the button is clicked append some text here.</p>
+          <ul id="list">
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+          </ul>
+        </div>
+        <hr class="sep-events" />
+
+        <div id="changecolorjq">
+          <input type="button" value="Change Color" id="btn-three" />
+          <p class="para3" id="other-color">
+            When the button is clicked change the text color to red.
+          </p>
+        </div>
+        <hr class="sep-events" />
+
+        <div id="hide-show-jq">
+          <input type="button" value="Hide" id="btn-hide" />
+          <input type="button" value="Show" id="btn-show" />
+          <p class="para4" id="apperance">
+            When these buttons are clicked this girl hides or shows.
+          </p>
+          <img src="images/hiding.jpg" alt="girl hiding" id="girl-hides" />
+          <img
+            hidden
+            src="images/showing.jpg"
+            alt="girl showing"
+            width="150"
+            height="150"
+            id="girl-shows"
+          />
+        </div>
+        <hr class="sep-events" />
+
+        <div id="slide-down-up-jq">
+          <input type="button" value="Slide Down" id="btn-down" />
+          <input type="button" value="Slide Up" id="btn-up" />
+          <p class="para4" >
+            When these buttons are clicked it slices down or up.
+          </p>
+          <img
+            src="images/Square-white.svg.png"
+            alt="square"
+            width="150"
+            height="150"
+            id="square-one"
+          />
+        </div>
+        <hr class="sep-events" />
+
+        <div id="dom-man-jq">
+          <input type="button" value="Hello World" id="btn-hello" />
+          <input type="button" value="Sunday" id="btn-bye" />
+          <p class="para5" id="domtex"></p>
+          <p class="para6" id="domtext-two"></p>
+        </div>
+        <hr class="sep-events" />
+      </div>
+      <hr />
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
